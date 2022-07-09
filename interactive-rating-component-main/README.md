@@ -19,7 +19,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Screenshot
 
-Screen[Hola](../images/screenshot.png)
+[](../images/screenshot.png)
 
 ### Links
 
