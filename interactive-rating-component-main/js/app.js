@@ -9,8 +9,9 @@ function cargarEventListeners(){
         rating.addEventListener('click',activeBtn);
         rating.addEventListener('mouseenter',hoverBtn);
         rating.addEventListener('mouseout',removeHoverBtn);
+        
     });
-    
+    btnSubmit.addEventListener('click',enviarResultado);
 }
 
 //funciones
@@ -45,3 +46,6 @@ function removeHoverBtn(e){
     }
 }
 
+function enviarResultado(){
+    
+}
