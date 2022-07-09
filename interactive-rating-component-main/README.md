@@ -72,4 +72,3 @@ In my future projects I'll be focused on the desings and save time in details. M
 ## Author
 
 - Website - [Paul Sierra Cordova](https://paulsierracordova-irc.netlify.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
