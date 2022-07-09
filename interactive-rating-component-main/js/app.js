@@ -1,6 +1,9 @@
 //variables
 const btnSubmit = document.querySelector('.submit');
 const ratings = document.querySelectorAll('.rating');
+const rateHTML = document.querySelector('.thankyou--rate');
+const containerRate = document.querySelector('#cardRating');
+const containerResult = document.querySelector('#cardResult');
 let rate;
 //Events
 cargarEventListeners();
@@ -11,7 +14,7 @@ function cargarEventListeners(){
         rating.addEventListener('mouseout',removeHoverBtn);
         
     });
-    btnSubmit.addEventListener('click',enviarResultado);
+    btnSubmit.addEventListener('click',showResult);
 }
 
 //funciones
@@ -28,7 +31,6 @@ function activeBtn(e){
     }
     estilos.add('rating--active');
     rate = parseInt(e.target.textContent);
-    console.log(rate);
 
 }   
 
@@ -46,6 +48,8 @@ function removeHoverBtn(e){
     }
 }
 
-function enviarResultado(){
-    
+function showResult(){
+    rateHTML.textContent = `You selected ${rate} out of 5`;
+    containerRate.classList.add('no-display');
+    containerResult.classList.remove('no-display');
 }

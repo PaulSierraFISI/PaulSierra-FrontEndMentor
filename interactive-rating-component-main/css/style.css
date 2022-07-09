@@ -32,8 +32,7 @@ html{
 
 h1{
     color: var(--White);    
-    font-size: 20px ;
-    font-weight: 700;
+    font-size: 25px ;
     font-weight: bold;
     letter-spacing: 1px;
 }
@@ -41,11 +40,17 @@ h1{
     border-radius: 20px 20px 20px 20px;
     background-color: var(--DarkBlue);
     max-width: 330px;
-    height: 330px;
+    height: 350px;
     margin: 10% auto;
     padding: 20px;
 }
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+} 
 
 .card_picture{
     background-color: hsl(216, 12%, 54%,0.2);
@@ -111,3 +116,37 @@ h1{
     font-size: var(--FontSize);
 }
 
+
+.thankyou--picture{
+    margin: 10px auto;
+    justify-content: center;
+}
+.thankyou--rate{
+    display: flex;
+    flex-direction: row;
+    color:hsl(25, 97%, 53%,0.7);
+    background-color: hsl(216, 12%, 54%,0.2);
+    padding: 5px 10px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.thankyou--title{
+    font-weight: normal;
+    margin: 10px auto;
+}
+
+.thankyou--description{
+    margin: 0 10px;
+    display: flex;
+    text-align: center;    
+    color:var(--LightGrey);
+    font-size: 12px;
+}
+
+
+.no-display{
+    display: none;
+}
