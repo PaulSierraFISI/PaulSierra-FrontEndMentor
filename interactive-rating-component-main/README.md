@@ -55,8 +55,6 @@ There's a sample of my code where I use this tip:
     color:var(--White);
 } 
 ```
-
-
 ```js
 ratings.forEach(rating=>{
         rating.classList.remove('rating--active');
@@ -71,13 +69,7 @@ ratings.forEach(rating=>{
 
 In my future projects I'll be focused on the desings and save time in details. Maybe I can use a framework CSS like TailwindCSS.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ## Author
 
 - Website - [Paul Sierra Cordova](https://paulsierracordova-irc.netlify.app/)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
