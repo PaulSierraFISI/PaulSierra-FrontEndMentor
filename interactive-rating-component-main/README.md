@@ -19,7 +19,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Screenshot
 
-[](images/screenshot.png)
+![](images/screenshot.png)
 
 ### Links
 
@@ -72,4 +72,3 @@ In my future projects I'll be focused on the desings and save time in details. M
 ## Author
 
 - Website - [Paul Sierra Cordova](https://paulsierracordova-irc.netlify.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
