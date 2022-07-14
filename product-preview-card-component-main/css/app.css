@@ -1,0 +1,30 @@
+:root{
+    /* Primary */
+    --DarkCyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    /*Neutral*/
+    --VeryDarkBlue: hsl(212, 21%, 14%);
+    --DarkGrayishBlue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    /*Font--Family*/
+    --FontFraunces:'Fraunces', serif;
+    --fontMontserrat:'Montserrat', sans-serif;
+
+}
+
+html{
+    box-sizing: border-box;
+}
+*,*:before,*::after{
+    box-sizing: inherit;
+}
+
+.body{
+    background-color: var(--Cream);
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
