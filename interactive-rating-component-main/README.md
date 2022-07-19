@@ -23,8 +23,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-htmlcss-js-g6trHvrU1M](FrontEndMentorSolution)
-- Live Site URL: [https://paulsierracordova-irc.netlify.app/](WebSite)
+- Solution URL: [FrontEndMentorSolution](https://www.frontendmentor.io/solutions/interactive-rating-component-htmlcss-js-g6trHvrU1M)
+- Live Site URL: [WebSite](https://paulsierracordova-irc.netlify.app/)
 
 ## My process
 
