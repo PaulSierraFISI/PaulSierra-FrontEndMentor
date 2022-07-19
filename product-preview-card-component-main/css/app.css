@@ -29,23 +29,46 @@ img{
 
 .body{
     background-color: var(--Cream);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: absolute;
 }
 
 .container{
-    max-width: 600px;
+    width: min(90%,600px);
+    position: relative;
+    margin: 10% auto;
 }
-
+.desktop{
+    display: none;
+}
 
 .card{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    display: flex;
+    flex-direction: column;
     border-radius: 15px;
     overflow: hidden;
-    margin: 10% 0;
 }
+
+.card--image{
+    width: 100%;
+    
+}
+
+@media(min-width: 769px){
+    .card{
+        display: grid;
+        grid-template-rows: none;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display:block;
+    }
+    }
+
+
+
 
 
 .card--info{
@@ -85,7 +108,6 @@ img{
 .card--price span{
     font-size: 12px;
     font-family: var(--fontMontserrat);
-    font-weight: ;
     color: var(--DarkGrayishBlue);
     /*background: linear-gradient(to right top, transparent 47.75%, currentColor 49.5%, currentColor 50.5%, transparent 52.25%);//Líneaa obliqua*/
     text-decoration: line-through;
