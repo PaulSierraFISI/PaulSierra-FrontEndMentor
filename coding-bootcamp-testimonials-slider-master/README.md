@@ -53,7 +53,7 @@ I improved my skills using Tailwind. My knowledge about positioning with relativ
 
 ## Author
 
-- Website - [Paul Sierra Cordova](https://www.your-site.com)
-- Frontend Mentor - [@PaulSierraFISI](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Paul Sierra Cordova](https://paulsierracordova-portafolio.netlify.app/)
+- Frontend Mentor - [@PaulSierraFISI](https://www.frontendmentor.io/profile/PaulSierraFISI)
 
 
