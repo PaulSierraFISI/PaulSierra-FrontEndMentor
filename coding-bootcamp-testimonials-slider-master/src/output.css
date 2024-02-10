@@ -821,30 +821,11 @@ video {
   .md\:text-left{
     text-align: left;
   }
-
-  .md\:text-base{
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  .md\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .md\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
 }
 
 @media (min-width: 1024px){
   .lg\:-bottom-\[2\%\]{
     bottom: -2%;
-  }
-
-  .lg\:-z-10{
-    z-index: -10;
   }
 
   .lg\:z-10{
@@ -875,24 +856,14 @@ video {
     width: 8rem;
   }
 
-  .lg\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .lg\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+  .lg\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .lg\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
 
@@ -903,11 +874,6 @@ video {
 }
 
 @media (min-width: 1536px){
-  .\32xl\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
-  }
-
   .\32xl\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
