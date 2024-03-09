@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/responsive-testimonial-slide-with-tailwind-css-and-js-w4KpxGl5F2)
-- Live Site URL: [Click Here](https://paulsierracordova-testimonialslide.netlify.app/)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/responsive-intro-section-with-tailwindcss-and-mobile-first-approach-WxXqwAcdtE)
+- Live Site URL: [Click Here](https://paulsierracordova-introsection.netlify.app/)
 
 ## My process
 
