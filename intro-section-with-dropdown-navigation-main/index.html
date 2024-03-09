@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link href="./styles/output.css" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="relative container font-medium text-base font-epilogue mx-auto bg-[#F9F9F9] text-gray-500  ">
+  
+  <header class="flex items-center justify-between p-6 md:py-8  md:justify-normal  " >
+    <img class="" src="./images/logo.svg" alt="logo-snap">
+    <div class=" md:grow">
+      <button id="menu_open" class="md:hidden" ><img src="./images/icon-menu.svg" alt="imagen-menu"></button>
+
+      <!-- Mobile Nav -->
+      <div id="menu-overlay_mobile" class="hidden absolute h-screen w-screen top-0 left-0 bg-black opacity-75"></div>
+
+      <div id="menu-content_mobile" class="hidden flex-col items-end md:flex md:flex-row md:items-center md:p-0 md:justify-between"> 
+        <button id="menu_close" class="mb-6 md:hidden" ><img src="./images/icon-close-menu.svg" alt="imagen-menu"></button>
+        <nav class="w-full flex gap-4 mb-8 flex-col items-start  md:flex-row md:gap-9 md:ml-9 md:items-center md:mb-0">
+          <div class="dropdown-container md:relative">
+            <button class="dropdown hover:text-[#141414] ">Features <img class="inline"  src="./images/icon-arrow-down.svg" alt="image-arrow-down"></button>
+            <div class="options hidden flex-col ml-3 mt-3 gap-3 md:m-0  md:absolute md:top-5 md:right-0 md:bg-white md:z-10 md:w-40 md:rounded-xl md:shadow-2xl md:p-4">
+              <a class="flex items-center gap-3 hover:text-[#141414]" href="#"> <img class="inline-block w-4" src="./images/icon-todo.svg" alt="image-todolist"> Todo List</a>
+              <a class="flex items-center gap-3 hover:text-[#141414]" href="#"> <img class="inline-block w-4" src="./images/icon-calendar.svg" alt="image-calendar"> Calendar</a>
+              <a class="flex items-center gap-3 hover:text-[#141414]" href="#"> <img class="inline-block w-4" src="./images/icon-reminders.svg" alt="image-reminders"> Reminders</a>
+              <a class="flex items-center gap-3 hover:text-[#141414]" href="#"> <img class="inline-block w-4" src="./images/icon-planning.svg" alt="image-planning"> Planning</a>
+            </div>
+          </div>
+          <div class="dropdown-container md:relative">
+            <button class="dropdown hover:text-[#141414]">Company <img class="inline" src="./images/icon-arrow-down.svg" alt="image-arrow-down"></button>
+            <div class="options hidden flex-col ml-3 mt-3 gap-3 md:m-0  md:absolute md:top-5 md:right-0 md:bg-white md:z-10 md:w-40 md:rounded-xl md:shadow-2xl md:p-4">
+              <a class="flex items-center gap-3 hover:text-[#141414]" href="#"> History</a>
+              <a class="flex items-center gap-3 hover:text-[#141414]" href="#"> Out Team</a>
+              <a class="flex items-center gap-3 hover:text-[#141414]" href="#"> Blog</a>
+            </div>
+          </div>
+          <a class="hover:text-[#141414]" href="#">Careers</a>
+          <a class="hover:text-[#141414]" href="#">About</a>
+        </nav>
+        <nav class="flex flex-col w-full md:flex-row md:gap-9 items-center gap-4 md:w-fit">
+          <a class="hover:text-[#141414]" href="#">Login</a>
+          <a href="#" class="text-center w-full border-2 border-gray-500 rounded-xl py-2 px-5 hover:text-[#141414] hover:border-[#141414] md:w-fit" >Register</a>    
+        </nav>
+      </div>
+      <div class="hidden w-60 top-0 right-0 overflow-visible h-screen p-4"></div>
+    </div>
+    
+  </header>
+  <div class="my-4 md:flex md:flex-row-reverse md:items-center md:gap-28 md:w-[1100px] md:mx-auto">
+    <picture class="">
+      <source srcset="./images/image-hero-desktop.png" media="(min-width: 800px)">
+      <img class="" src="./images/image-hero-mobile.png" alt="img-hero">
+    </picture>
+    <div class="px-3 md:px-0">
+      <main class="flex flex-col items-center pt-2 md:items-start md:gap-y-8">
+        <h1 class="text-black text-center font-bold text-4xl md:text-7xl md:text-left">Make remote work</h1>
+        <p class="text-center my-3 md:w-4/5 md:text-left">Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.</p>
+        <a href="#" class="px-6 py-3 font-medium bg-black text-white rounded-xl hover:bg-white hover:text-black hover:ring hover:ring-black">Learn more</a>
+      </main>
+      <section class="flex items-center mt-8 gap-8 justify-evenly md:mt-24">
+        <a href="#"><img src="./images/client-databiz.svg" alt="logo-databiz"></a>
+        <a href="#"><img src="./images/client-audiophile.svg" alt="logo-audiophile"></a>
+        <a href="#"><img src="./images/client-meet.svg" alt="logo-meet"></a>
+        <a href="#"><img src="./images/client-maker.svg" alt="logo-makers"></a>
+      </section>
+    </div>
+    
+  </div>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Paul Sierra Cordova</a>.
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

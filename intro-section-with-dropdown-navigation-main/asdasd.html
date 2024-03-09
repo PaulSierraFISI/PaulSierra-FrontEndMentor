@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropdown Menu con Tailwind CSS</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+  <div class="relative inline-block text-left">
+    <button class="bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center focus:outline-none">
+      <span>Menú</span>
+      <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 7l-5 5 1.5 1.5L10 10l3.5 3.5L15 12z"/></svg>
+    </button>
+    <div class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none hidden">
+      <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+        <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-200" role="menuitem">Opción 1</a>
+        <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-200" role="menuitem">Opción 2</a>
+        <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-200" role="menuitem">Opción 3</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
