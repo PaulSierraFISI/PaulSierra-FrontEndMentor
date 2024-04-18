@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="./output.css" rel="stylesheet">
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="text-sm font-manrope h-screen text-gray-500">
+  <div class="h-1/2 w-screen bg-[url('/images/bg-pattern.svg')] bg-left-top bg-no-repeat bg-cover absolute -z-10"></div>
+  <header class="w-80 bg-[url('/images/pattern-circles.svg')] bg-no-repeat bg-center py-20 text-center mx-auto">
+    <h1 class="text-xl font-extrabold text-blue-950" >Simple, traffic-based pricing</h1>
+    <p>Sign-up for our 30-day trial. <br class="md:hidden">No credit card required.</p>
+  </header>
+   
+  <form class="w-80 px-10 divide-y divide-solid bg-white rounded-3xl shadow-xl mx-auto text-xs">
+    <div class="grid grid-cols-1 place-items-center py-8 gap-3">
+      <div>
+        <p>100K Pageviews</p>
+      </div>
+      <input class="w-full" type="range">
+      <div class="place-self-center">
+        <p>$16<span>/month</span></p>
+      </div>
+      <div class="flex gap-2 items-center"> 
+        <p>Monthly Billing</p>
+        <input type="checkbox">
+        <p>Yearly Billing</p>
+        <p class=" px-2 py-[2px] bg-orange-100 text-orange-500 rounded-3xl">-25% <span class="hidden md:flex">discount</span></p>
+      </div>
+    </div>
+
+    <div class=" flex flex-col py-6">
+      <ul class="flex flex-col items-center list-image-[url('/images/icon-check.svg')] gap-2 ">
+        <li>
+          <p>Unlimited websites</p>
+        </li>
+        <li>
+          <p>100% data ownership</p>
+        </li>
+        <li>
+          <p>Email reports</p>
+        </li>
+      </ul>
+      <button type="submit" class="py-2 px-8 mx-auto text-gray-300 bg-blue-950 hover:text-gray-100 rounded-3xl mt-4">Start my trial</button>
+    </div>
+  </form>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
