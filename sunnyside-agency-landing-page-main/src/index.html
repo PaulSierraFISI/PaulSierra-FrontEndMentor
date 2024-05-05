@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
   <link href="./output.css" rel="stylesheet">
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
@@ -18,10 +18,10 @@
     <div class="h-full  sm:bg-[url('/images/icon-arrow-down.svg')] bg-no-repeat bg-center bg-auto sm:h-full">
       <header class="pt-10 px-6 flex justify-between items-center sm:px-12">
         <img class="sm:h-10" src="../images/logo.svg" alt="logo">
-        <button class="sm:hidden">
+        <button id="header_action" class="sm:hidden">
           <img src="../images/icon-hamburger.svg" alt="menu_icon">
         </button>
-        <div class="absolute  top-24 left-0 right-0 m-auto w-[327px] h-64 sm:relative sm:top-auto sm:inset-x-auto sm:h-auto sm:w-auto sm:m-0">
+        <div id="header__nav" class="absolute  top-24 left-0 right-0 m-auto w-[327px] h-64 transition-transform origin-top-right scale-0 sm:relative sm:top-auto sm:inset-x-auto sm:h-auto sm:w-auto sm:m-0 sm:block sm:scale-100 ">
             <div class="w-0 h-0 border-y-[32px] border-r-[32px] border-solid border-y-transparent border-r-white -mb-8 ml-auto sm:hidden"></div>
             <div class="bg-white w-full h-full  sm:bg-transparent ">
               <nav class="h-full flex flex-col justify-evenly items-center font-barlow text-gray-500 sm:text-gray-100 sm:flex-row sm:gap-12 sm:text-2xl">
@@ -33,8 +33,8 @@
             </div>   
         </div>
       </header>
-      <div class="h-full bg-[url('/images/icon-arrow-down.svg')] bg-no-repeat bg-center sm:bg-none">
-        <h1 class="font-black text-white text-4xl text-s uppercase text-center pt-32 tracking-[0.2em] sm:text-6xl">We are creatives</h1>
+      <div id="hero__bg" class="h-full bg-[url('/images/icon-arrow-down.svg')] bg-no-repeat bg-center sm:bg-none">
+        <h1 class="font-black text-white text-4xl text-s uppercase text-center pt-32 tracking-[0.2em] select-none sm:text-6xl sm:pt-24">We are creatives</h1>
       </div>
     </div>
   </div>
@@ -144,6 +144,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://paulsierracordova-portafolio.netlify.app/">Paul Sierra Cordova</a>.
   </div>
-
+  <script src="./app.js"></script>
 </body>
 </html>

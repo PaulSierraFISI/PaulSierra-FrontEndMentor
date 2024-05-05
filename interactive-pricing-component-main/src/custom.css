@@ -1,0 +1,76 @@
+:root{
+    --soft-cyan :hsl(174, 77%, 80%);
+    --strong-cyan: hsl(174, 86%, 45%);
+    --soft-gray:#ECF0F9;
+    --less-strong-cyan:#7AEADE;
+    --RANGE-VALUE: 25%;
+}   
+.form__input--range{
+    appearance: none;
+    width: 100%;
+    
+}
+
+.form__input--range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background-image: url('/images/icon-slider.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-radius: 99999px;
+    background-color: var(--strong-cyan);
+    -webkit-box-shadow: 0px 15px 15px 5px var(--soft-cyan);
+    -moz-box-shadow: 0px 15px 15px 5px var(--soft-cyan);
+    box-shadow: 0px 15px 15px 5px var(--soft-cyan);
+    margin-top: -12px;
+  }
+
+  .form__input--range:active::-webkit-slider-thumb{
+    background-color: var(--less-strong-cyan);
+  }
+  .form__input--range::-moz-range-thumb {
+    cursor: pointer;
+    border-width: 0;
+    width: 35px;
+    height: 35px;
+    background-image: url('/images/icon-slider.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-radius: 99999px;
+    background-color: var(--strong-cyan);
+    -webkit-box-shadow: 0px 15px 15px 5px var(--soft-cyan);
+    -moz-box-shadow: 0px 15px 15px 5px var(--soft-cyan);
+    box-shadow: 0px 15px 15px 5px var(--soft-cyan);
+}
+.form__input--range:active::-moz-range-thumb{
+    background-color: var(--less-strong-cyan);
+  }
+
+.form__input--range::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, var(--soft-cyan) var(--RANGE-VALUE), var(--soft-gray) 0); 
+    border-radius: 5px;
+    border-width:0 ;
+   
+}
+
+.form__input--range::-moz-range-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, var(--soft-cyan) var(--RANGE-VALUE), var(--soft-gray) 0); ;
+    border-radius: 5px;
+    border-width:0 ;
+   
+}
+
+
+input[type="checkbox"]:checked + .toggle-label {
+    background-color:  rgb(165 243 252 / var(--tw-bg-opacity));
+}

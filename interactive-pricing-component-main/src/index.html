@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="stylesheet" href="./custom.css">
   <link href="./output.css" rel="stylesheet">
   <title>Frontend Mentor | Interactive pricing component</title>
 
@@ -13,49 +14,43 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="text-sm font-manrope h-screen text-gray-500">
+<body class="text-sm font-manrope h-screen text-gray-500 md:text-base">
   <div class="h-1/2 w-screen bg-[url('/images/bg-pattern.svg')] bg-left-top bg-no-repeat bg-cover absolute -z-10"></div>
-  <header class="w-80 bg-[url('/images/pattern-circles.svg')] bg-no-repeat bg-center py-20 text-center mx-auto">
-    <h1 class="text-xl font-extrabold text-blue-950" >Simple, traffic-based pricing</h1>
-    <p>Sign-up for our 30-day trial. <br class="md:hidden">No credit card required.</p>
+  <header class="w-80 bg-[url('/images/pattern-circles.svg')] bg-no-repeat bg-center py-20 text-center mx-auto md:w-[500px]">
+    <h1 class="text-xl font-extrabold text-blue-950 mb-1 md:text-3xl" >Simple, traffic-based pricing</h1>
+    <p class="">Sign-up for our 30-day trial. <br class="md:hidden">No credit card required.</p>
   </header>
    
-  <form class="w-80 px-10 divide-y divide-solid bg-white rounded-3xl shadow-xl mx-auto text-xs">
-    <div class="grid grid-cols-1 place-items-center py-8 gap-3">
-      <div>
-        <p>100K Pageviews</p>
-      </div>
-      <input class="w-full" type="range">
-      <div class="place-self-center">
-        <p>$16<span>/month</span></p>
-      </div>
-      <div class="flex gap-2 items-center"> 
+  <form class="w-80  divide-y divide-solid bg-white rounded-xl shadow-xl mx-auto text-xs md:w-[600px] mb-5 md:text-base">
+    <div class="grid grid-cols-1 place-items-center  py-8 gap-3 px-5 md:grid-cols-2 md:grid-flow-row-dense md:px-10">
+      <p id="pageviews" class="font-extrabold uppercase tracking-widest">100K Pageviews</p>
+      <input class="w-full my-5 form__input--range md:col-span-2" type="range" min="0" value="25" max="100" step="25"  >
+      <p id="billingDescription" class="font-semibold tracking-widest flex items-center gap-2 md:inline-flex md:ml-auto"></p>
+      <div class="flex gap-2 mt-4 items-center md:col-span-2 md:text-sm md:ml-auto"> 
         <p>Monthly Billing</p>
-        <input type="checkbox">
+        <div class="relative w-9">
+          <input type="checkbox" name="billingCheckbox" id="billingCheckbox" class="absolute block w-5 h-5 rounded-full bg-white border-4 border-gray-300 appearance-none cursor-pointer checked:right-0 checked:border-cyan-200 transition duration-200 ease-in-out "/>
+          <label for="billingCheckbox" class="toggle-label block  h-5 rounded-full bg-gray-300 cursor-pointer transition duration-200 ease-in-out "></label>
+        </div>
         <p>Yearly Billing</p>
-        <p class=" px-2 py-[2px] bg-orange-100 text-orange-500 rounded-3xl">-25% <span class="hidden md:flex">discount</span></p>
+        <p class=" px-2 py-[2px] bg-orange-100 text-orange-500 rounded-3xl">-25% <span class="hidden md:inline">discount</span></p>
       </div>
     </div>
 
-    <div class=" flex flex-col py-6">
-      <ul class="flex flex-col items-center list-image-[url('/images/icon-check.svg')] gap-2 ">
-        <li>
-          <p>Unlimited websites</p>
-        </li>
-        <li>
-          <p>100% data ownership</p>
-        </li>
-        <li>
-          <p>Email reports</p>
-        </li>
+    <div class=" grid grid-cols-1 place-items-center py-6 px-10 md:grid-rows-1 md:grid-cols-2 gap-2 ">
+      <ul class="flex flex-col items-center list-image-[url('/images/icon-check.svg')] gap-2 md:items-start md:mr-auto md:list-inside">
+        <li>Unlimited websites</li>
+        <li>100% data ownership</li>
+        <li>Email reports</li>
       </ul>
-      <button type="submit" class="py-2 px-8 mx-auto text-gray-300 bg-blue-950 hover:text-gray-100 rounded-3xl mt-4">Start my trial</button>
+      <button type="submit" class="py-3 px-10 text-gray-300 bg-blue-950 hover:text-gray-100 rounded-3xl mt-4 md:mt-0 md:ml-auto font-bold">Start my trial</button>
     </div>
   </form>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Paul Sierra Cordova</a>.
   </div>
+  <script src="./app.js"></script>
 </body>
 </html>
