@@ -43,12 +43,12 @@ If the visitor switches the toggle to yearly billing, a 25% discount should be a
 
 ### Screenshot
 
-![](./images/screenshot.jpg)
+![](./images/Screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/responsive-intro-section-with-tailwindcss-and-mobile-first-approach-WxXqwAcdtE)
-- Live Site URL: [Click Here](https://paulsierracordova-interactive-pricing-component.netlify.app/)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/dinamically-landing-page-with-tailwindcss-_wkWAREntd)
+- Live Site URL: [Click Here](https://paulsierracordova-interactive-pricing.netlify.app/)
 
 ## My process
 
