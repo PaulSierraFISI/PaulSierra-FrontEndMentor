@@ -1,0 +1,2 @@
+[build]
+  publish = "src/index.html"  # Ruta a la carpeta donde se encuentra tu index.html
