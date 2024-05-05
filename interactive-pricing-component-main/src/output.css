@@ -1979,8 +1979,8 @@ video {
   background-position: center;
 }
 
-.bg-left-top{
-  background-position: left top;
+.bg-left-bottom{
+  background-position: left bottom;
 }
 
 .bg-repeat{
