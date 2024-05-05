@@ -1,6 +1,6 @@
 const headerNav = document.querySelector('#header__nav');
 const headerAction = document.querySelector('#header_action');
-const heroBg = document.querySelector('#hero__bg');
+const iconArrowDown = document.querySelector('#icon-arrow-down');
 
 eventListeners();
 
@@ -12,5 +12,7 @@ function mostrarMenu(e){
     e.preventDefault();
         headerNav.classList.toggle("scale-0");
         headerNav.classList.toggle("scale-100");
-        heroBg.classList.toggle("bg-none");
+        iconArrowDown.classList.toggle("scale-0");
+        iconArrowDown.classList.toggle("animate-bounce")
+        iconArrowDown.classList.toggle("scale-100");
 }

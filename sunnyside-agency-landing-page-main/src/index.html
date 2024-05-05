@@ -15,13 +15,12 @@
 </head>
 <body class="text-lg font-fraunces ">
   <div class="h-screen w-screen bg-bottom bg-cover bg-[url('/images/mobile/image-header.jpg')] sm:bg-[url('/images/desktop/image-header.jpg')]">
-    <div class="h-full  sm:bg-[url('/images/icon-arrow-down.svg')] bg-no-repeat bg-center bg-auto sm:h-full">
       <header class="pt-10 px-6 flex justify-between items-center sm:px-12">
         <img class="sm:h-10" src="../images/logo.svg" alt="logo">
         <button id="header_action" class="sm:hidden">
           <img src="../images/icon-hamburger.svg" alt="menu_icon">
         </button>
-        <div id="header__nav" class="absolute  top-24 left-0 right-0 m-auto w-[327px] h-64 transition-transform origin-top-right scale-0 sm:relative sm:top-auto sm:inset-x-auto sm:h-auto sm:w-auto sm:m-0 sm:block sm:scale-100 ">
+        <div id="header__nav" class="absolute z-10 top-24 left-0 right-0 m-auto w-[327px] h-64 transition-transform origin-top-right scale-0 sm:relative sm:top-auto sm:inset-x-auto sm:h-auto sm:w-auto sm:m-0 sm:block sm:scale-100 ">
             <div class="w-0 h-0 border-y-[32px] border-r-[32px] border-solid border-y-transparent border-r-white -mb-8 ml-auto sm:hidden"></div>
             <div class="bg-white w-full h-full  sm:bg-transparent ">
               <nav class="h-full flex flex-col justify-evenly items-center font-barlow text-gray-500 sm:text-gray-100 sm:flex-row sm:gap-12 sm:text-2xl">
@@ -33,10 +32,10 @@
             </div>   
         </div>
       </header>
-      <div id="hero__bg" class="h-full bg-[url('/images/icon-arrow-down.svg')] bg-no-repeat bg-center sm:bg-none">
-        <h1 class="font-black text-white text-4xl text-s uppercase text-center pt-32 tracking-[0.2em] select-none sm:text-6xl sm:pt-24">We are creatives</h1>
+      <div class="h-full flex flex-col items-center">
+        <h1 class="font-black text-white text-4xl text-s uppercase text-center py-24 tracking-[0.2em] select-none sm:text-6xl sm:py-32">We are creatives</h1>
+        <img id="icon-arrow-down" class=" animate-bounce transition-transform origin-top-right scale-100 sm:scale-100 sm:animate-bounce" src="../images/icon-arrow-down.svg" alt="icon-arrow-down">
       </div>
-    </div>
   </div>
   
 
