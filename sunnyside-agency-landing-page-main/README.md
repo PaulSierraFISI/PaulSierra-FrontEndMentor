@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Click Here](https://www.frontendmentor.io/solutions/responsive-intro-section-with-tailwindcss-and-mobile-first-approach-WxXqwAcdtE)
-- Live Site URL: [Click Here](https://paulsierracordova-sunny-agency-landing-page.netlify.app/)
+- Live Site URL: [Click Here](https://paulsierracordova-sunny-agency.netlify.app/)
 
 ## My process
 
