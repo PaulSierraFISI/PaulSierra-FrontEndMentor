@@ -5,13 +5,12 @@ module.exports = {
     "./app/script.js",
   ],
   theme: {
-    extend: {
-    },
-    fontFamily:{
-      'alata': 'Alata, sans-serif',
-      'josefine': 'Josefin Sans, sans-serif'
+    extend: {},
+    fontFamily: {
+      sans: 'Open Sans, sans-serif',
+      raleway: 'Raleway, sans-serif'
     }
-    
   },
   plugins: [],
 }
+
