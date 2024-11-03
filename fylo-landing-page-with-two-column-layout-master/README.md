@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/responsive-landing-page-using-tailwindcss-nanUCPhjKN)
-- Live Site URL: [Click Here](https://paulsierracordova-sunny-agency.netlify.app/)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/fylo-landing-page-with-tailwind-css--5keTp3RoV)
+- Live Site URL: [Click Here](https://paul-sierra-fylo-landing-page-with-two-column-layout.vercel.app/)
 
 ## My process
 
